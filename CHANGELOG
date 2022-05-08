@@ -1,0 +1,52 @@
+CHANGELOG crawler
+
+version 1.5.14
+------------------------
+* Log referer URL if the a page get > 400 when verified
+
+version 1.5.13
+------------------------
+* Catch a href that has a new line between a and href instead of a space (some WP plugin creates them that way)
+
+version 1.5.12
+------------------------
+* Show the referer of an asset.
+
+version 1.5.11
+------------------------
+* Bug fix: When following redirects, URL:s that don't match the domain is picked up #11
+
+version 1.5.10
+------------------------
+* Bug fix: The proxy support was broken in 1.5.9.
+
+version 1.5.9
+------------------------
+* Added support for accepting compressed content
+
+version 1.5.8
+------------------------
+* Bug fix: When a request is redirected, always use the end location
+
+version 1.5.7
+------------------------
+* Fix for only picking up HTML links
+
+version 1.5.3
+------------------------
+* When a cookie is not following the spec, the url of the page setting the cookie, is now logged to system error
+
+version 1.5.2
+------------------------
+* Bug fix: Follow the exact default example of closing the connection for http client
+
+version 1.5.1
+------------------------
+* Bug fix: URL:s that not following RFC 2396 gave null pointers
+
+version 1.5
+------------------------
+* Added changelog (finally)
+* Cleaner implementation in CrawlToPlainTxtOnlyMatching
+* Added asset verification 
+* Measure the time it takes to fetch the content
