@@ -85,7 +85,7 @@ The location of crawler.properties file can be set with the system property com.
 ## Examples
 
 Checkout the project and compile your own full jar (all dependencies included):
-<pre>git clone git@github.com:soulgalore/crawler.git</pre>
+<pre>https://github.com/graham218/java_web_crawler.git</pre>
 
 or add it to Maven, if you want to include the crawler in your project:
 <pre>
